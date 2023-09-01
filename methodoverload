@@ -1,0 +1,26 @@
+public class Main {
+  static int plusMethodInt(int x, int y) {
+    return x + y;
+  }
+  
+  static double plusMethodDouble(double x, double y) {
+    return x + y;
+  }
+  
+  public static void main(String[] args) {
+    int myNum1 = plusMethodInt(8, 5);
+    double myNum2 = plusMethodDouble(4.3, 6.26);
+    System.out.println("int: " + myNum1);
+    System.out.println("double: " + myNum2);
+  }
+}
+
+//Your provided code is a great example of method overloading in Java. In this program, 
+you have two methods named plusMethodInt and plusMethodDouble, each with different parameter types. Let me explain the code:
+
+plusMethodInt is a method that takes two int parameters and returns their sum.
+plusMethodDouble is a method that takes two double parameters and returns their sum.
+In the main method, you call plusMethodInt with 8 and 5 as arguments, and it returns an int result, which is stored in myNum1.
+Similarly, you call plusMethodDouble with 4.3 and 6.26 as arguments, and it returns a double result, which is stored in myNum2.
+Finally, you print the values of myNum1 and myNum2 to the console.
+This program demonstrates how you can define multiple methods with the same name but different parameter types, which is known as method overloading. Java determines which method to call based on the number and types of arguments provided during the method invocation.
